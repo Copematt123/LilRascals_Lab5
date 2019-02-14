@@ -31,6 +31,72 @@ min1997
 ### Kelsey McKenna 1997
 For my birth year of 1997 there the mean is 3121.82 millions of pounds of milk produced per state, the median is 1436 millions of pounds per state, the maximum amount of milk a state produced this year was 27,582 million pounds and the minimum produced was 15 million pounds. 
 
+## Shreeya Basrur Individual
+```{r}
+milk <- read.csv("state_milk_production.csv")
+milk <- milk %>%
+  mutate(milk_million = milk_produced/1000000)
+mean1999 <- milk %>%
+  filter(year == 1999) %>% summarize(mean(milk_million))
+mean1999
+med1999 <- milk %>%
+  filter(year == 1999) %>% summarize(median(milk_million))
+med1999
+max1999 <- milk %>%
+  filter(year == 1999) %>% summarize(max(milk_million))
+max1999
+min1999 <- milk %>%
+  filter(year == 1999) %>% summarize(min(milk_million))
+min1999
+
+```
+### Shreeya Basrur
+For my birth year, the mean was 3251.8 millions of pounds and the median was 1418 million pounds.The minimum production was 14 million pounds and the maximum production was 30,444 pounds.
+
+## James Burke Individual
+```{r}
+milk <- read.csv("state_milk_production.csv")
+milk <- milk %>%
+  mutate(milk_million = milk_produced/1000000)
+mean1999 <- milk %>%
+  filter(year == 1999) %>% summarize(mean(milk_million))
+mean1999
+med1999 <- milk %>%
+  filter(year == 1999) %>% summarize(median(milk_million))
+med1999
+max1999 <- milk %>%
+  filter(year == 1999) %>% summarize(max(milk_million))
+max1999
+min1999 <- milk %>%
+  filter(year == 1999) %>% summarize(min(milk_million))
+min1999
+
+```
+### James Burke
+For my birth year, the mean was 3251.8 millions of pounds and the median was 1418 million pounds.The minimum production was 14 million pounds and the maximum production was 30,444 pounds.
+
+## Matthew Copeland Individual
+```{r}
+milk <- read.csv("state_milk_production.csv")
+milk <- milk %>%
+  mutate(milk_million = milk_produced/1000000)
+mean1998 <- milk %>%
+  filter(year == 1998) %>% summarize(mean(milk_million))
+mean1998
+med1998 <- milk %>%
+  filter(year == 1998) %>% summarize(median(milk_million))
+med1998
+max1998 <- milk %>%
+  filter(year == 1998) %>% summarize(max(milk_million))
+max1998
+min1998 <- milk %>%
+  filter(year == 1998) %>% summarize(min(milk_million))
+min1998
+
+```
+### Matthew Copeland
+For my birth year, the mean was 3145.22 millions of pounds and the median was 1411.5 million pounds.The minimum production was 14 million pounds and the maximum production was 27,620 pounds.
+
 #Team Work
 ```{r}
 milk <- milk %>%
