@@ -1,6 +1,6 @@
 ---
-title: "Untitled"
-author: "Matthew Copeland"
+title: "Lab 5 Milk Production"
+author: "Matthew Copeland, James Burke, Kelsey Mckenna, Shreeya Brusar"
 date: "February 13, 2019"
 output: html_document
 ---
